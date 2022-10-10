@@ -1,0 +1,35 @@
+name: versioning
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  versioning:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      #Check out the code
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+        
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.19.0'
+
+      - name: Install Dev Dependencies
+        run: npm i --no-package-lock --no-save standard-version
+
+      - name: Setup github username and email
+        run: |
+          git config --global user.email "github_actor@mail.com"
+          git config --global user.name "Github Actor"
+      
+      - name: Run Versioning
+        run: DRY_RUN=false node ./CI/MakeRelease.js
+      
+      - name: Push to github
+        run: git push --follow-tags origin main
