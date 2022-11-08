@@ -1,6 +1,6 @@
 {
         "name": "Custom-Events",
-        "version": "3.0.2",
+        "version": "3.0.3",
         "title": "Custom-Events",
         "author": {
                 "name": "Black Label",
@@ -31,18 +31,20 @@
                         "name": "Sebastian Bochan",
                         "email": "sebastian@blacklabel.pl",
                         "url": "http://www.blacklabel.pl"
-                }, {
+                },
+                {
                         "name": "Paweł Fus",
                         "email": "pawel@blacklabel.pl",
                         "url": "http://www.blacklabel.pl"
-                }, {
+                },
+                {
                         "name": "Kacper Madej",
                         "email": "kacper@blacklabel.pl",
                         "url": "http://www.blacklabel.pl"
                 }
         ],
-        "homepage": "http://blacklabel.github.io/custom_events/",        
-        "docs": "https://github.com/blacklabel/custom_events/",        
+        "homepage": "http://blacklabel.github.io/custom_events/",
+        "docs": "https://github.com/blacklabel/custom_events/",
         "bugs": "https://github.com/blacklabel/custom_events/issues",
         "download": "https://github.com/blacklabel/custom_events/archive/master.zip"
 }
