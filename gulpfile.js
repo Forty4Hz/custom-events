@@ -1,7 +1,6 @@
 'use strict';
 var gulp = require('gulp'),
     eslint = require('gulp-eslint'),
-    jsmin = require('gulp-jsmin'),
     rename = require('gulp-rename'),
     jsdoc = require('gulp-jsdoc3');
 
@@ -19,9 +18,8 @@ gulp.task('jsdoc', function (cb) {
         .pipe(jsdoc(config, cb));
 });
  
-gulp.task('minify', function () {
-    gulp.src('js/*.js')
-        .pipe(jsmin())
-        .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('js'));
-});
+// gulp.task('minify', function () {
+//     gulp.src('js/*.js')
+//         .pipe(rename({suffix: '.min'}))
+//         .pipe(gulp.dest('js'));
+// });

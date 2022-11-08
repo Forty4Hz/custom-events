@@ -31,7 +31,6 @@
     "gulp-jsdoc3": "^2.0.0"
   },
   "dependencies": {
-    "gulp-jsmin": "^0.1.5",
     "highcharts": ">=5.0.9"
   }
 }
