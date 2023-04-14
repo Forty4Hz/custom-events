@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.4](https://github.com/blacklabel/custom_events/compare/v3.0.3...v3.0.4) (2023-04-14)
+
+
+### Bug Fixes
+
+* right click for latitude, longitude map points ([0c9ac89](https://github.com/blacklabel/custom_events/commit/0c9ac89e4f06e90c6b1e282306a33dce43f41e40))
+
 ### [3.0.3](https://github.com/blacklabel/custom_events/compare/v3.0.2...v3.0.3) (2022-11-08)
 
 
