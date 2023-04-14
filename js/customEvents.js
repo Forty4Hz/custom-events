@@ -122,6 +122,10 @@
 				userOptionsPointEvents.click = userOptionsEvents.click;
 			}
 
+			if (typeof userOptionsPointEvents.contextmenu === "undefined" && typeof userOptionsEvents.contextmenu !== "undefined"){
+				userOptionsPointEvents.contextmenu = userOptionsEvents.contextmenu;
+			}
+
 			// Add support for legendItemClick in pie chart
 			if (userOptionsPointEvents) {
 				options.point.events = {
