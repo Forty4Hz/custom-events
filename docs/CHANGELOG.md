@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.5](https://github.com/blacklabel/custom_events/compare/v3.0.4...v3.0.5) (2023-10-18)
+
+
+### Bug Fixes
+
+* Attaching mouseOver event for highmaps ([2f2ede3](https://github.com/blacklabel/custom_events/commit/2f2ede302f5b698f5525e15669a52022908ac6c9))
+
 ### [3.0.4](https://github.com/blacklabel/custom_events/compare/v3.0.3...v3.0.4) (2023-04-14)
 
 
