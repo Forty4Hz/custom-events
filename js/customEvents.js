@@ -137,6 +137,7 @@
 					select: userOptionsPointEvents && userOptionsPointEvents.select,
 					unselect: userOptionsPointEvents && userOptionsPointEvents.unselect,
 					click: userOptionsPointEvents && userOptionsPointEvents.click,
+					contextmenu: userOptionsPointEvents && userOptionsPointEvents.contextmenu,
 					mouseOut: userOptionsPointEvents && userOptionsPointEvents.mouseOut,
 					mouseOver: userOptionsPointEvents && userOptionsPointEvents.mouseOver
 				};
