@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.6](https://github.com/blacklabel/custom_events/compare/v3.0.5...v3.0.6) (2024-02-28)
+
+
+### Bug Fixes
+
+* To enable right click in box plot chart ([de39740](https://github.com/blacklabel/custom_events/commit/de397407f327bc5353168274d9758254793fff1b))
+
 ### [3.0.5](https://github.com/blacklabel/custom_events/compare/v3.0.4...v3.0.5) (2023-10-18)
 
 
