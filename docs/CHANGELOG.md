@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.7](https://github.com/blacklabel/custom_events/compare/v3.0.6...v3.0.7) (2024-08-06)
+
+
+### Bug Fixes
+
+* Removing call for for this.buildKDTree() as this function does not exist ([e158181](https://github.com/blacklabel/custom_events/commit/e1581812047578d663cd085262488b786cfb767f))
+
 ### [3.0.6](https://github.com/blacklabel/custom_events/compare/v3.0.5...v3.0.6) (2024-02-28)
 
 
