@@ -574,10 +574,6 @@
 					elementPoint = this.points; //	extract points
 				}
 
-				if (!this.kdTree && !this.buildingKdTree) {
-					this.buildKDTree(); //	#86, missing reference to point on first mouseover
-				}
-
 				return {
 					events: events,
 					element: element,
