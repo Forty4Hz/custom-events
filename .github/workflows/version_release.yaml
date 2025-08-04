@@ -18,7 +18,7 @@ jobs:
 
       - run: |
           echo "//npm.pkg.github.com/:_authToken=${{secrets.NPM_TOKEN}}" > ~/.npmrc
-          npm ci
+          npm install
           rm ~/.npmrc
 
       - run: npx semantic-release
