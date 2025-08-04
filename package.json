@@ -5,7 +5,7 @@
   "main": "js/customEvents.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blacklabel/custom_events.git"
+    "url": "https://github.com/Forty4Hz/custom-events.git"
   },
   "types": "js/customEvents.d.ts",
   "keywords": [
@@ -18,9 +18,9 @@
   "author": "Black Label <start@blacklabel.pl> (http://blacklabel.pl)",
   "license": "SEE LICENSE IN license.txt",
   "bugs": {
-    "url": "https://github.com/blacklabel/custom_events/issues"
+    "url": "https://github.com/Forty4Hz/custom-events/issues"
   },
-  "homepage": "https://github.com/blacklabel/custom_events#readme",
+  "homepage": "https://github.com/Forty4Hz/custom-events#readme",
   "files": [
     "js/customEvents.js",
     "js/customEvents.d.ts"
