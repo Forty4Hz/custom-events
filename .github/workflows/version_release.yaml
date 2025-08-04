@@ -16,11 +16,13 @@ jobs:
         with:
           node-version: '20'
 
-      - run: |
+      - name: Install dependencies securely
+        run: |
           echo "//npm.pkg.github.com/:_authToken=${{secrets.NPM_TOKEN}}" > ~/.npmrc
           npm i --no-package-lock
           rm ~/.npmrc
 
-      - run: npx semantic-release
+      - name: Run Semantic Release
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.INISA_GITHUB_TOKEN }}
